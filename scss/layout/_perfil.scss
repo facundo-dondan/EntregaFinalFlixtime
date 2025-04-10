@@ -6,9 +6,9 @@
   font-weight: bold;
 }
 .edit-profile {
-  font-family: variables.$fuenteTextos;
+  font-family: $fuenteTextos;
   font-size: smaller;
-  background-color: variables.$colorDetalles;
+  background-color: $colorDetalles;
   padding: 5px;
   border-radius: 5px;
   border: none;
@@ -18,8 +18,8 @@
   position: relative;
   top: 30px;
   left: 20px;
-  font-family: variables.$fuenteTitulos;
-  color: variables.$colorTitulos;
+  font-family: $fuenteTitulos;
+  color: $colorTitulos;
   padding: 10px;
 }
 .fav-movies,
@@ -37,8 +37,8 @@
   position: relative;
   margin-top: 50px;
   text-align: center;
-  color: variables.$colorTitulos;
-  font-family: variables.$fuenteTitulos;
+  color: $colorTitulos;
+  font-family: $fuenteTitulos;
 }
 @media (max-width: 768px) {
   .profile {

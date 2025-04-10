@@ -1,17 +1,17 @@
 .listas-titulo {
   text-align: center;
-  font-family: variables.$fuenteTitulos;
+  font-family: $fuenteTitulos;
   font-size: 20px;
-  color: variables.$colorTitulos;
+  color: $colorTitulos;
 }
 .container {
   display: flex;
   justify-content: flex-end;
 
   .crear-lista {
-    font-family: variables.$fuenteTextos;
+    font-family: $fuenteTextos;
     font-weight: 800;
-    background-color: variables.$colorDetalles;
+    background-color: $colorDetalles;
     padding: 5px 10px;
     border-radius: 5px;
     border: none;
