@@ -1,0 +1,43 @@
+.watchlist-titulo {
+  font-size: 24px;
+  font-family: $fuenteTitulos;
+  font-weight: medium;
+  color: $colorTitulos;
+  text-decoration: underline;
+}
+.watchlist-categorias-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 200px;
+  padding-left: 20px;
+}
+.watchlist-categorias {
+  font-family: $fuenteTitulos;
+  color: $colorTitulos;
+}
+.watchlist-movies {
+  text-align: left;
+  width: 100%;
+}
+.watchlist-movie-icon {
+  float: left;
+  margin-right: 15px;
+  width: 70px;
+  height: auto;
+}
+.watchlist-movie {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.watchlist-text {
+  overflow: hidden;
+}
+.p7 {
+  font-family: $fuenteTextos;
+  font-weight: bold;
+}
+.p8 {
+  background-color: $colorDetalles;
+  display: inline-block;
+}

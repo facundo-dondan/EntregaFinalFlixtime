@@ -14,7 +14,7 @@
 header {
   width: 99%;
   padding: 10px;
-  background-color: #e0bb99;
+  background-color: goldenrod;
   overflow: hidden;
   text-align: center;
 }
@@ -72,6 +72,13 @@ body {
   flex-direction: column;
   min-height: 100vh;
   margin: 0;
+  background-color: #e0bb99;
+}
+
+@media (max-width: 768px) {
+  main {
+    min-height: calc(100vh - 100px);
+  }
 }
 
 footer {
@@ -90,6 +97,268 @@ footer nav ul {
   display: flex;
   flex-direction: row;
   gap: 15px;
+}
+footer div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+footer div img {
+  height: 24px;
+  width: 24px;
+}
+@media (max-width: 768px) {
+  footer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 15px;
+  }
+  footer nav ul {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  footer div {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+.listas-titulo {
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
+  color: purple;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.button-container .crear-lista {
+  font-family: "inconsolata", monospace;
+  font-weight: 800;
+  background-color: goldenrod;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.titulo-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 200px;
+  padding-left: 20px;
+}
+
+.listas-populares {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+  color: purple;
+  text-decoration: underline;
+}
+
+.listas-populares-img {
+  text-align: left;
+  margin-top: 80px;
+}
+
+.imagenes-de-listas {
+  display: inline-block;
+  text-align: center;
+  margin: 50px;
+}
+
+.imagenes-de-listas p {
+  font-size: 12px;
+  margin-top: 0;
+}
+
+.listas-img {
+  width: 110px;
+}
+
+.listas-guardadas-titulo {
+  font-family: "Roboto Mono", monospace;
+  color: purple;
+  text-decoration: underline;
+}
+
+.listas-guardadas {
+  text-align: left;
+  width: 100%;
+}
+
+.listas-img2 {
+  float: left;
+  margin-right: 15px;
+  width: 150px;
+  height: auto;
+}
+
+.lista-guardada {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.listas-texto {
+  overflow: hidden;
+}
+
+.p2 {
+  font-family: "inconsolata", monospace;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.profile {
+  width: 100px;
+  height: auto;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.edit-profile {
+  font-family: "inconsolata", monospace;
+  font-size: smaller;
+  background-color: goldenrod;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.favoritas {
+  position: relative;
+  top: 30px;
+  left: 20px;
+  font-family: "Roboto Mono", monospace;
+  color: purple;
+  padding: 10px;
+}
+
+.fav-movies,
+.recent-movies {
+  width: 150px;
+  margin: 10px;
+}
+
+.recent {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.actividad {
+  position: relative;
+  margin-top: 50px;
+  text-align: center;
+  color: purple;
+  font-family: "Roboto Mono", monospace;
+}
+
+@media (max-width: 768px) {
+  .profile {
+    width: 80px;
+  }
+  .username,
+  .edit-profile {
+    font-size: 1rem;
+  }
+  .fav-movies,
+  .recent-movies {
+    width: 80%;
+  }
+}
+@media (max-width: 480px) {
+  .profile {
+    width: 60px;
+  }
+}
+.noticias-titulo {
+  font-family: "Roboto Mono", monospace;
+  font-size: 24px;
+  color: purple;
+  text-decoration: underline;
+}
+
+.news-article {
+  display: inline-block;
+  margin: 50px;
+}
+
+.p4 {
+  font-family: "inconsolata", monospace;
+  font-size: 18px;
+  color: purple;
+}
+
+.p5 {
+  font-family: "inconsolata", monospace;
+  font-style: oblique;
+}
+
+.p6 {
+  font-family: "inconsolata", monospace;
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+.watchlist-titulo {
+  font-size: 24px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: medium;
+  color: purple;
+  text-decoration: underline;
+}
+
+.watchlist-categorias-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 200px;
+  padding-left: 20px;
+}
+
+.watchlist-categorias {
+  font-family: "Roboto Mono", monospace;
+  color: purple;
+}
+
+.watchlist-movies {
+  text-align: left;
+  width: 100%;
+}
+
+.watchlist-movie-icon {
+  float: left;
+  margin-right: 15px;
+  width: 70px;
+  height: auto;
+}
+
+.watchlist-movie {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.watchlist-text {
+  overflow: hidden;
+}
+
+.p7 {
+  font-family: "inconsolata", monospace;
+  font-weight: bold;
+}
+
+.p8 {
+  background-color: goldenrod;
+  display: inline-block;
 }
 
 /*# sourceMappingURL=style.css.map */

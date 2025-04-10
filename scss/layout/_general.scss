@@ -15,7 +15,7 @@
 header {
   width: 99%;
   padding: 10px;
-  background-color: $colorFondos;
+  background-color: $colorDetalles;
   overflow: hidden;
   text-align: center;
 }
@@ -63,7 +63,14 @@ body {
   flex-direction: column;
   min-height: 100vh;
   margin: 0;
+  background-color: $colorFondos;
 }
+main {
+  @media (max-width: 768px) {
+    min-height: calc(100vh - 100px);
+  }
+}
+
 footer {
   width: 100%;
   margin: 0;
@@ -78,5 +85,33 @@ footer {
     padding: 0;
     margin: 0;
     @include flex-row(15px);
+  }
+
+  div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    img {
+      height: 24px;
+      width: 24px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: row; // still row, but maybe wrap
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 15px;
+
+    nav ul {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    div {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
   }
 }
