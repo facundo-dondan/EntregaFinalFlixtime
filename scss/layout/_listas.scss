@@ -1,0 +1,20 @@
+.listas-titulo {
+  text-align: center;
+  font-family: variables.$fuenteTitulos;
+  font-size: 20px;
+  color: variables.$colorTitulos;
+}
+.container {
+  display: flex;
+  justify-content: flex-end;
+
+  .crear-lista {
+    font-family: variables.$fuenteTextos;
+    font-weight: 800;
+    background-color: variables.$colorDetalles;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+}

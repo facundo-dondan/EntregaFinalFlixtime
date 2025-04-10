@@ -1,0 +1,61 @@
+.profile {
+  width: 100px;
+  height: auto;
+}
+.username {
+  font-weight: bold;
+}
+.edit-profile {
+  font-family: variables.$fuenteTextos;
+  font-size: smaller;
+  background-color: variables.$colorDetalles;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.favoritas {
+  position: relative;
+  top: 30px;
+  left: 20px;
+  font-family: variables.$fuenteTitulos;
+  color: variables.$colorTitulos;
+  padding: 10px;
+}
+.fav-movies,
+.recent-movies {
+  width: 150px;
+  margin: 10px;
+}
+.recent {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.actividad {
+  position: relative;
+  margin-top: 50px;
+  text-align: center;
+  color: variables.$colorTitulos;
+  font-family: variables.$fuenteTitulos;
+}
+@media (max-width: 768px) {
+  .profile {
+    width: 80px;
+  }
+  .username,
+  .edit-profile {
+    font-size: 1rem;
+  }
+  .fav-movies,
+  .recent-movies {
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile {
+    width: 60px;
+  }
+}

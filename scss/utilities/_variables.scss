@@ -1,4 +1,11 @@
 $colorFondos: #e0bb99;
 $colorDetalles: goldenrod;
+$colorTitulos: purple;
 $fuenteTitulos: "Roboto Mono", monospace;
 $fuenteTextos: "inconsolata", monospace;
+
+@mixin flex-row($gap: 0) {
+  display: flex;
+  flex-direction: row;
+  gap: $gap;
+}
