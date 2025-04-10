@@ -32,3 +32,46 @@
   color: $colorTitulos;
   text-decoration: underline;
 }
+.listas-populares-img {
+  text-align: left;
+  margin-top: 80px;
+}
+.imagenes-de-listas {
+  display: inline-block;
+  text-align: center;
+  margin: 50px;
+}
+.imagenes-de-listas p {
+  font-size: 12px;
+  margin-top: 0;
+}
+.listas-img {
+  width: 110px;
+}
+.listas-guardadas-titulo {
+  font-family: $fuenteTitulos;
+  color: $colorTitulos;
+  text-decoration: underline;
+}
+.listas-guardadas {
+  text-align: left;
+  width: 100%;
+}
+.listas-img2 {
+  float: left;
+  margin-right: 15px;
+  width: 150px;
+  height: auto;
+}
+.lista-guardada {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.listas-texto {
+  overflow: hidden;
+}
+.p2 {
+  font-family: $fuenteTextos;
+  font-size: 12px;
+  margin-top: 5px;
+}
