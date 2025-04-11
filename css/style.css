@@ -57,13 +57,13 @@ nav {
 
 .actividad-seguidos-titulo {
   font-family: "Roboto Mono", monospace;
-  color: #e8dad7;
+  color: #f8d5db;
   text-decoration: underline;
 }
 
 .noticias-recientes {
   font-family: "Roboto Mono", monospace;
-  color: #e8dad7;
+  color: #f8d5db;
   text-decoration: underline;
 }
 
@@ -128,7 +128,7 @@ footer div img {
   text-align: center;
   font-family: "Roboto Mono", monospace;
   font-size: 20px;
-  color: #e8dad7;
+  color: #f8d5db;
 }
 
 .button-container {
@@ -156,7 +156,7 @@ footer div img {
 .listas-populares {
   font-family: "Roboto Mono", monospace;
   font-weight: 500;
-  color: #e8dad7;
+  color: #f8d5db;
   text-decoration: underline;
 }
 
@@ -182,7 +182,7 @@ footer div img {
 
 .listas-guardadas-titulo {
   font-family: "Roboto Mono", monospace;
-  color: #e8dad7;
+  color: #f8d5db;
   text-decoration: underline;
 }
 
@@ -237,7 +237,7 @@ footer div img {
   top: 30px;
   left: 20px;
   font-family: "Roboto Mono", monospace;
-  color: #e8dad7;
+  color: #f8d5db;
   padding: 10px;
 }
 
@@ -258,7 +258,7 @@ footer div img {
   position: relative;
   margin-top: 50px;
   text-align: center;
-  color: #e8dad7;
+  color: #f8d5db;
   font-family: "Roboto Mono", monospace;
 }
 
@@ -283,7 +283,7 @@ footer div img {
 .noticias-titulo {
   font-family: "Roboto Mono", monospace;
   font-size: 24px;
-  color: #e8dad7;
+  color: #f8d5db;
   text-decoration: underline;
 }
 
@@ -295,7 +295,7 @@ footer div img {
 .p4 {
   font-family: "inconsolata", monospace;
   font-size: 18px;
-  color: #e8dad7;
+  color: #f8d5db;
 }
 
 .p5 {
@@ -313,7 +313,7 @@ footer div img {
   font-size: 24px;
   font-family: "Roboto Mono", monospace;
   font-weight: medium;
-  color: #e8dad7;
+  color: #f8d5db;
   text-decoration: underline;
 }
 
@@ -327,7 +327,7 @@ footer div img {
 
 .watchlist-categorias {
   font-family: "Roboto Mono", monospace;
-  color: #e8dad7;
+  color: #f8d5db;
 }
 
 .watchlist-movies {
